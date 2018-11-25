@@ -11,15 +11,25 @@ public class ScoringSystem : MonoBehaviour {
     public static bool bonusTime; 
     void Start()
     {
+        // Start with the score = 100
         theScore = 100;
+        // the Player has not collected the MegaFruit, so he does not get bonus points
         bonusTime = false;
     }
     void Update()
     {
+        // Update the score text on the HUD
         scoreText.GetComponent<Text>().text = "HEALTH: " + theScore;
+
+        // If the score drops below or is equal to 0, then Game Over
         if(theScore <= 0)
         {
             SceneManager.LoadScene("GameOver");
+        }
+        // If the score reaches over 300 points, the player wins
+        if (theScore >= 300)
+        {
+            SceneManager.LoadScene("GameWin");
         }
     }
 }
