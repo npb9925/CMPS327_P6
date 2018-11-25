@@ -31,5 +31,18 @@ public class ScoringSystem : MonoBehaviour {
         {
             SceneManager.LoadScene("GameWin");
         }
+        if (bonusTime == true)
+        {
+            StartCoroutine(Invincible());
+        }
+    }
+    IEnumerator Invincible()
+    {
+        // Changes the globalVariable "bonusTime" to "true", meaning double points are rewarded when picking up fruit and no points are deducted when collecting junk food.
+        print("Wait for seconds");
+        yield return new WaitForSeconds(10f);
+        print("Waited");
+        ScoringSystem.bonusTime = false;
+        print("bonusTime = False");
     }
 }
