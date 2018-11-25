@@ -1,0 +1,7 @@
+Main Menu Music: Playground - Alec Holowka - Night In the Woods Vol 1: At The End of Everything
+Game Music: Title - Alec Holowka - Night In the Woods Vol 1: At The End of Everything
+Game Over Music: Bea! - Alec Holowka - Night In the Woods Vol 1: At The End of Everything
+
+All sound effects from Valve's Team Fortress 2 Source Filmaker Library
+
+All music and sound effects used in this project were for education purposes only.

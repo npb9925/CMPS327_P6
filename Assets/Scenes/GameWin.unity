@@ -278,7 +278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your health dropped below 0
+  m_Text: You reached 300 points
 --- !u!222 &318277781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME OVER
+  m_Text: You Win!
 --- !u!222 &974771434
 CanvasRenderer:
   m_ObjectHideFlags: 0
